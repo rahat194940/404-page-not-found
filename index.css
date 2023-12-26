@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+}
+
+
 h3 {
     color: #333;
 font-family: 'Inconsolata';
@@ -7,6 +12,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
+margin-bottom: 36px;
 }
 
 h1 {
@@ -17,6 +23,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 2.24px;
+margin-bottom: 36px;
 }
 
 .description {
@@ -26,6 +33,7 @@ font-size: 21px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-bottom: 30px;
 }
 
 .btn-primary {
@@ -40,6 +48,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -0.49px;
 text-transform: uppercase;
+border: 0;
 }
 
 .name {
@@ -50,6 +59,8 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-top: 20px;
+margin-bottom: 25px;
 }
 
 .username {
@@ -67,3 +78,46 @@ text-decoration-line: underline;
     height: 400px;
 }
 
+.nav {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    padding: 20px 60px;
+    align-items: center;
+    gap: 119px;
+}
+
+.logo-title {
+    font-family: 'Montserrat'; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media screen and (max-width:567px) {
+    .nav {
+        padding: 10px 10px;
+    }  
+    h3 {
+        font-size: 21px;
+    }
+    .gu{
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        gap: 40px;
+        padding: 10px;
+    }
+    .kaktarua {
+        height: 300px;
+        width: 300px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+}
