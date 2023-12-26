@@ -1,0 +1,69 @@
+h3 {
+    color: #333;
+font-family: 'Inconsolata';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+h1 {
+    color: #333;
+font-family: 'Space Mono';
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.24px;
+}
+
+.description {
+    color:  #4F4F4F;
+font-family: 'Space Mono';
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.btn-primary {
+    width: 175px;
+height: 60px;
+background: #333;
+color: #FFF;
+font-family: 'Space Mono';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+}
+
+.name {
+    color: #BDBDBD;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.username {
+    color: #BDBDBD;
+font-family: 'Montserrat';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.kaktarua {
+    width: 400px;
+    height: 400px;
+}
+
